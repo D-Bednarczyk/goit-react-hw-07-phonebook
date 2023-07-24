@@ -1,8 +1,8 @@
 import css from './Form.module.css';
-import { addContact } from '../redux/operations';
+import { addContact } from '../../redux/operations';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
-import { selectContacts } from '../redux/selectors';
+import { selectContacts } from '../../redux/selectors';
 import { nanoid } from 'nanoid';
 
 export const Form = () => {
